@@ -1,0 +1,20 @@
+name: KiteBlocksCustomEnchants
+version: 1.0.0
+main: gg.kiteblocks.enchants.CustomEnchantsPlugin
+api-version: '1.21'
+author: KiteBlocks
+website: https://kiteblocks.minehut.gg
+commands:
+  enchants:
+    description: Browse KiteBlocks custom enchants
+    usage: /enchants
+    permission: kiteblocks.enchants.view
+  kbenchant:
+    description: Admin commands to enchant held item or give test summoning eyes
+    usage: /kbenchant apply <decapitation|wellfed|trickster|summoner|scorch> <level>
+    permission: kiteblocks.enchants.admin
+permissions:
+  kiteblocks.enchants.view:
+    default: true
+  kiteblocks.enchants.admin:
+    default: op

@@ -1,0 +1,11 @@
+# Chance per level is percentage points. Maximum level is defined in the plugin.
+# All values configurable before server restart/reload.
+chances:
+  decapitation-per-level: 5.0 # 5% at level 1, 50% at level 10 on player kill
+  wellfed-per-level: 8.0 # 8%-40% chance to gain food on hitting a player
+  trickster-per-level: 3.0 # 3%-15% chance to shuffle victim's hotbar
+  summoner-per-level: 10.0 # 10%-30% chance on Enderman kill
+  scorch-per-level: 7.0 # 7%-35% chance of setting a player on fire + slowing
+cooldowns:
+  trickster-seconds: 12
+  scorch-seconds: 5
